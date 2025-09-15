@@ -1,0 +1,12 @@
+package com.hari.design_patterns.AbstractFactory_VS_Factory.AbstractFactory;
+
+import java.util.concurrent.Executor;
+
+public interface DBFactory {
+
+    Connection connect();
+
+    QueryExecutor execute();
+
+
+}
