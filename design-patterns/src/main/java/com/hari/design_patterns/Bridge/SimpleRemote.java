@@ -1,6 +1,6 @@
 package com.hari.design_patterns.Bridge;
 
-public class SimpleRemote extends RemoteControl{
+public class SimpleRemote extends RemoteControl {
 
 
     public SimpleRemote(Device device) {
@@ -9,17 +9,20 @@ public class SimpleRemote extends RemoteControl{
 
     @Override
     void powerOn() {
+
+
+
         device.turnOn();
 
     }
 
     @Override
     void powerOff() {
-device.turnOff();
+        device.turnOff();
     }
 
     @Override
     void volumneUp() {
-device.setVolumne(50);
+        device.setVolumne(50);
     }
 }
